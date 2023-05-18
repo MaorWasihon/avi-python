@@ -1,0 +1,4 @@
+table_id,capacity,status
+1,4,available
+2,6,available
+3,2,occupied

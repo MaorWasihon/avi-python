@@ -1,0 +1,16 @@
+'name','price','is_vegetarian'
+'Pad Thai', 65, False
+'Miso Soup', 30, True
+'Maki Roll',30,False
+'Tuna Nigiri',38,False
+'Salmon Sashimi',55,False
+'Tempura Roll',60,False
+'Vegetable Roll',30,True
+'Cucumber Roll',34,True
+'Avocado Roll',36,True
+'Sweet Potato Roll',36,True
+'Tiramisu', 50, False
+'Chocolate Brownie', 45, True
+'Crack Pie', 45, True
+'Creme Brulee', 55, True
+'Vanile Tart', 40, True

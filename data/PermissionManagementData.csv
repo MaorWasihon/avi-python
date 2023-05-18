@@ -1,0 +1,3 @@
+customerPermission,employeePermission
+{'read': True, 'write': False},{}
+{'read': False, 'write': True},"{1: {'read': True, 'write': True'}}"

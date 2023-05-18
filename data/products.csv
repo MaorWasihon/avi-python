@@ -1,0 +1,4 @@
+name,price,is_vegetarian
+Sushi,72,False
+Burger,50,False
+Salad,30,True
