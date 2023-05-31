@@ -13,7 +13,7 @@ class MenuData:
             writer = csv.writer(file)
             writer.writerow(['product', 'price'])
             for prod in products:
-                writer.writerow([prod['item_name'], prod['price']])
+                writer.writerow([prod['product'], prod['price']])
 
     def load(self):
         menus = []
@@ -41,21 +41,21 @@ class Menu:
 
 
     def add_product(self, product):
-        self.products.append({'item_name': f'{product.name}', 'price': f'{product.price}'})
+        self.products.append({'product': f'{product.name}', 'price': f'{product.price}'})
         print(f"{product.name} has been added to the menu.")
 
     def edit_product(self, name, price):
         for i, product in enumerate(self.products):
             print(i, product)
-            if product['item_name'] == name:
+            if product['product'] == name:
                 self.products[i]['price'] = price
-                print(f"{product['item_name']} has been updated with a new price of ${product['price']}")
+                print(f"{product['product']} has been updated with a new price of ${product['price']}")
                 return
         print(f"Error: {name} not found in the menu.")
 
     def delete_product(self, product_name):
         for i, product in enumerate(self.products):
-            if product['item_name'] == product_name:
+            if product['product'] == product_name:
                 del self.products[i]
                 print(f"{product_name} has been deleted from the menu.")
                 return
